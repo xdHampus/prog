@@ -1,3 +1,9 @@
+/*
+ * @lc app=leetcode id=705 lang=cpp
+ *
+ * [705] Binary Search
+ */
+// @lc code=start
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -21,3 +27,4 @@ public:
         return ans;
     }
 };
+// @lc code=end

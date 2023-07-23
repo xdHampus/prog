@@ -1,3 +1,9 @@
+#
+# @lc app=leetcode id=238 lang=python3
+#
+# [238] Product of Array Except Self
+#
+# @lc code=start
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         k = [0] * len(nums)
@@ -23,3 +29,4 @@ class Solution:
 
             
         return k
+# @lc code=end

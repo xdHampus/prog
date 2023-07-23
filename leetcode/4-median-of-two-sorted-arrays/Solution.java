@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=4 lang=java
+ *
+ * [4] Median of Two Sorted Arrays
+ */
+// @lc code=start
+
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int tL = nums1.length + nums2.length;
@@ -18,3 +25,4 @@ class Solution {
         return tL % 2 == 1 ? tA[mI+1] : ((double)tA[mI] + (double)tA[mI + 1])/2;
     }
 }
+// @lc code=end

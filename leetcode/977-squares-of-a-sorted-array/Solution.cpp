@@ -1,3 +1,9 @@
+/*
+ * @lc app=leetcode id=977 lang=cpp
+ *
+ * [977] Last Stone Weight
+ */
+// @lc code=start
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
@@ -19,3 +25,4 @@ public:
         return out;
     }
 };
+// @lc code=end

@@ -1,4 +1,10 @@
 /*
+ * @lc app=leetcode id=430 lang=java
+ *
+ * [430] Flatten a Multilevel Doubly Linked List
+ */
+// @lc code=start
+/*
 // Definition for a Node.
 class Node {
     public int val;
@@ -38,3 +44,4 @@ class Solution {
         return head;
     }
 }
+// @lc code=end

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=155 lang=java
+ *
+ * [155] Min Stack
+ */
+// @lc code=start
+
 class MinStack {
     public static class Node {
         public Node next;
@@ -44,3 +51,4 @@ class MinStack {
         return minHead != null ? minHead.val : 0;
     }
 }
+// @lc code=end

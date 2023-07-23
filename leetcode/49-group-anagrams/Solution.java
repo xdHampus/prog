@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=49 lang=java
+ *
+ * [49] Group Anagrams
+ */
+// @lc code=start
+
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> lls = new ArrayList<>();
@@ -19,3 +26,5 @@ class Solution {
         return lls;
     }
 }
+// @lc code=end
+

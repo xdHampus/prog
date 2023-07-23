@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=1022 lang=cpp
+ *
+ * [1022] Sum of Root To Leaf Binary Numbers
+ */
+// @lc code=start
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -9,7 +16,6 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
 class Solution {
 public:
 
@@ -34,3 +40,4 @@ public:
         return subr(root, 0);
     }
 };
+// @lc code=end

@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode id=155 lang=cpp
+ *
+ * [155] Min Stack
+ */
+// @lc code=start
+
 struct Node {
     int val;
     struct Node* next;
@@ -62,3 +69,4 @@ public:
         }
     }   
 };
+// @lc code=end
