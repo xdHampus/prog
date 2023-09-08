@@ -14,13 +14,14 @@
           inherit system;
           config.allowUnfree = true;
         };
+
+        leetcode = import ./leetcode/default.nix { inherit pkgs; };
       in rec {
         devShells.default = pkgs.mkShell rec {
           name = "prog";
           packages = with pkgs; [ jdk17 clang gdb python310 ];
         };
-        packages = {
 
-        };
+        packages = leetcode;
       });
 }
